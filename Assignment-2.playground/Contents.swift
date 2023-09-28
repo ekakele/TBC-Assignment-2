@@ -69,7 +69,7 @@ print(sumOfOdds)
 var numberToScan2: Int = 0
 var sumOfOdds2 = 0
 
-while numberToScan2 < 10 {
+while numberToScan2 < 100 {
     numberToScan2 += 1
     // check if the number is even, if so, continue (skip this number, don't add to the sumOfOdds)
     if numberToScan2 % 2 == 0 {
@@ -96,10 +96,7 @@ print(reversedString)
 let originalString1: String = "GOODBYE"
 var reversedString1 = ""
 for char in originalString1 {
-    //    print(char)
-    //    print(reversedString)
     reversedString1 = "\(char)" + reversedString1 // new char first + previously taken chars
-    //    print(reversedString)
 }
 print(reversedString1)
 
